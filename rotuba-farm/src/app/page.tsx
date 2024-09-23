@@ -1,4 +1,4 @@
-import Ourteam from "./ourteam";
+import Ourteam from "../Team";
 
 
 export default function Home() {
