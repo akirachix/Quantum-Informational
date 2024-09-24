@@ -10,8 +10,8 @@ const sections = [
     altText: "Mission icon",
     title: "Our Mission",
     text: "Our mission is to empower small-scale farmers with innovative soil health gadgets that provide accurate insights into soil conditions. By monitoring pH, nutrients, and moisture, we enhance agricultural productivity and sustainability, enabling data-driven decisions for healthier soils and successful crops.",
-    width: 500, // Add appropriate width
-    height: 300, // Add appropriate height
+    width: 500, 
+    height: 300, 
   },
   {
     id: "vision",
@@ -19,8 +19,8 @@ const sections = [
     altText: "Vision icon",
     title: "Our Vision",
     text: "Our vision is to empower small-scale farmers with accessible and affordable soil health technology. We aim to revolutionize agriculture by providing comprehensive solutions that help farmers make informed decisions, optimize crop yields, and promote sustainable farming practices.",
-    width: 500, // Add appropriate width
-    height: 300, // Add appropriate height
+    width: 500, 
+    height: 300, 
   },
   {
     id: "goal",
@@ -28,8 +28,8 @@ const sections = [
     altText: "Goal icon",
     title: "Our Objective",
     text: "Our goal is to provide advanced soil health technology that helps small-scale farmers monitor soil conditions effectively. By prioritizing accuracy and affordability, we equip farmers to assess soil pH, nutrients, and moisture, supporting their sustainable practices.",
-    width: 500, // Add appropriate width
-    height: 300, // Add appropriate height
+    width: 500, 
+    height: 300,
   },
 ];
 

@@ -24,10 +24,10 @@ export default function Navbar() {
               </div>
             </div>
             <nav className="hidden md:flex space-x-4 lg:space-x-8 font-semibold text-2xl">
-              <NavLink href="#home">Home</NavLink>
-              <NavLink href="#product">Product</NavLink>
-              <NavLink href="#about">Mission</NavLink>
-              <NavLink href="#team">Team</NavLink>
+              <Link href="#home">Home</Link>
+              <Link href="#about">About</Link>
+              <Link href="#product">Product</Link>
+              <Link href="#team">Team</Link>
             </nav>
             <div className="md:hidden flex items-center">
               <button
@@ -67,7 +67,7 @@ export default function Navbar() {
               <MobileNavLink href="#about" onClick={() => setIsMenuOpen(false)}>
                 Mission
               </MobileNavLink>
-              <MobileNavLink href="#team" onClick={() => setIsMenuOpen(false)}>
+              <MobileNavLink href="/team" onClick={() => setIsMenuOpen(false)}>
                 Team
               </MobileNavLink>
             </div>
@@ -103,7 +103,7 @@ interface NavLinkProps {
   children: React.ReactNode;
 }
 
-function NavLink({ href, children }: NavLinkProps) {
+function Link({ href, children }: NavLinkProps) {
   return (
     <a
       href={href}
