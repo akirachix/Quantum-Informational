@@ -31,7 +31,7 @@ const Footer = () => {
     <footer className="bg-white py-8 px-4 font-sans">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start">
         <div className="mb-8 md:mb-0">
-          <Image src="/images/logo.png" width={110} height={110} alt="RutubaFarm Logo" className="mb-8 object-cover ml-14"/>
+          <Image src="/images/logo.png" width={110} height={110} alt="RutubaFarm Logo" className="mb-8 object-cover ml-14" style={{fontFamily:'Airi, serif'}}/>
           <div className="flex space-x-7">
             {Object.entries(socialLinks).map(([platform, url]) => (
               <a key={platform} href={url} target="_blank" rel="noopener noreferrer">
@@ -47,14 +47,14 @@ const Footer = () => {
         </div>
         {sections.map((section, index) => (
           <div key={index} className="mb-8  md:mb-0">
-            <h3 className="font-semibold text-lg mb-3 ">{section.title}</h3>
-            <ul className="space-y-4 ">
+            <h3 className="font-semibold text-lg mb-3 2xl:text-3xl" style={{fontFamily:'Airi, serif'}}>{section.title}</h3>
+            <ul className="space-y-4 " style={{fontFamily:'Airi, serif'}}>
               {section.items.map((item, itemIndex) => (
                 <li key={itemIndex}>
                   {typeof item === 'string' ? (
-                    <p className="text-sm">{item}</p>
+                    <p className="text-2xl" style={{fontFamily:'Airi, serif'}}>{item}</p>
                   ) : (
-                    <div className="flex items-center ">
+                    <div className="flex items-center text-2xl" style={{fontFamily:'Airi, serif'}}>
                       <Image
                         src={item.icon}
                         width={18}
@@ -62,7 +62,7 @@ const Footer = () => {
                         alt={`${item.text} icon`}
                         className="mr-2"
                       />
-                      <p className="text-base">{item.text}</p>
+                      <p className="text-2xl" style={{fontFamily:'Airi, serif'}}>{item.text}</p>
                     </div>
                   )}
                 </li>

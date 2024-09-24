@@ -10,7 +10,7 @@ const Defination = () => {
         </h1>
       </div>
       <p
-        className="lg:mt-12 text-lg text-justify min-w-3.5 mx-4 mt-4 leading-8 -tracking-wider xl:tracking-tight xl:leading-10 2xl:text-2xl xl:text-2xl md:leading-loose sm:text-md md:text-4xl lg:text-3xl lg:leading-loose 2xl:leading-loose"
+        className="lg:mt-12 text-lg text-justify min-w-3.5 mx-4 mt-4 leading-8 -tracking-wider xl:tracking-tight xl:leading-10 2xl:text-3xl xl:text-2xl md:leading-loose sm:text-md md:text-4xl lg:text-3xl lg:leading-loose 2xl:leading-loose"
         style={{ fontFamily: 'Amiri, serif' }}
       >
         RutubaFarm is an innovative, portable gadget designed specifically for rural farmers, providing an affordable and convenient solution for monitoring soil health.
