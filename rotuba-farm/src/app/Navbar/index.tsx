@@ -26,10 +26,10 @@ export default function Navbar() {
               {/* <div className="hidden sm:block"></div> */}
             </div>
             <nav className="hidden md:flex space-x-4 lg:space-x-8 font-semibold text-2xl">
-              <NavLink href="#home">Home</NavLink>
-              <NavLink href="#product">Product</NavLink>
-              <NavLink href="#about">Mission</NavLink>
-              <NavLink href="#team">Team</NavLink>
+            <Link href="#home">Home</Link>
+              <Link href="#about">About</Link>
+              <Link href="#product">Product</Link>
+              <Link href="#team">Team</Link>
             </nav>
             <div className="md:hidden flex items-center">
               <button
