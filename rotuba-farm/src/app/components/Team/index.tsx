@@ -43,7 +43,7 @@ const teamMembers: TeamMember[] =  [
 
 const Team = () => {
   return (
-    <div className="bg-yellow-200">
+    <div className="bg-yellow-200" id='team'>
       <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center pb-12 pt-4 md:pt-4" style={{ fontFamily: 'Amiri, serif' }}>
         Our Team
       </h1>
