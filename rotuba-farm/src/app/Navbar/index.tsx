@@ -3,27 +3,25 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <div className="relative font-serif font-bold text-7xl">
-      <header className="fixed w-full z-10 bg-white  bg-opacity-90 shadow">
+      <header className="fixed w-full z-10 bg-white bg-opacity-90 shadow">
         <div className="container max-w-[1800px] mx-auto px-4">
           <div className="flex justify-between items-center">
             <div className="flex items-center">
-              <div className=" ">
+              <div>
                 <Image
                   src="/images/Rutubalogo.png"
                   alt="Logo"
                   width={80}
                   height={20}
-                  // layout="fill"
-                  objectFit="contain"
                   className="p-2"
+                  style={{ objectFit: "contain" }} // Use CSS style for object fit
                 />
               </div>
-              {/* <div className="hidden sm:block"></div> */}
             </div>
             <nav className="hidden md:flex space-x-4 lg:space-x-8 font-semibold text-2xl">
               <NavLink href="#home">Home</NavLink>
@@ -63,10 +61,7 @@ export default function Navbar() {
               <MobileNavLink href="#home" onClick={() => setIsMenuOpen(false)}>
                 Home
               </MobileNavLink>
-              <MobileNavLink
-                href="#product"
-                onClick={() => setIsMenuOpen(false)}
-              >
+              <MobileNavLink href="#product" onClick={() => setIsMenuOpen(false)}>
                 Product
               </MobileNavLink>
               <MobileNavLink href="#about" onClick={() => setIsMenuOpen(false)}>
@@ -101,7 +96,14 @@ export default function Navbar() {
     </div>
   );
 }
-function NavLink({ href, children }) {
+
+// NavLink component with prop types
+interface NavLinkProps {
+  href: string;
+  children: React.ReactNode;
+}
+
+function NavLink({ href, children }: NavLinkProps) {
   return (
     <a
       href={href}
@@ -111,7 +113,13 @@ function NavLink({ href, children }) {
     </a>
   );
 }
-function MobileNavLink({ href, children, onClick }) {
+interface MobileNavLinkProps {
+  href: string;
+  children: React.ReactNode;
+  onClick: () => void;
+}
+
+function MobileNavLink({ href, children, onClick }: MobileNavLinkProps) {
   return (
     <a
       href={href}
