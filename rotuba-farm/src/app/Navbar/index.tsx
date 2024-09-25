@@ -25,7 +25,7 @@ export default function Navbar() {
               </div>
               {/* <div className="hidden sm:block"></div> */}
             </div>
-            <nav className="hidden md:flex space-x-4 lg:space-x-8 font-semibold text-2xl">
+            <nav className=" hidden md:flex space-x-4 lg:space-x-8 font-semibold text-2xl">
             <Link href="#home">Home</Link>
               <Link href="#about">About</Link>
               <Link href="#product">Product</Link>
