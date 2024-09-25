@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const LandingPage = () => {
   return (
-    <div className="relative h-[calc(100vh-4rem)]">
+    <div className="relative h-[calc(100vh-4rem)]" id="home">
       <div className="">
         <Image
           src="/images/Farmer-photo.png"

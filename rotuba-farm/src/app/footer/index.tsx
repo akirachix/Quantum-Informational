@@ -31,14 +31,14 @@ const Footer = () => {
     <footer className="bg-white py-8 px-4 font-sans">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start">
         <div className="mb-8 md:mb-0">
-          <Image src="/images/logo.png" width={110} height={110} alt="RutubaFarm Logo" className="mb-8 object-cover ml-14" style={{fontFamily:'Airi, serif'}}/>
-          <div className="flex space-x-7">
+          <Image src="/images/logo.png" width={110} height={110} alt="RutubaFarm Logo" className="mb-8 object-cover -ml-24" style={{fontFamily:'Airi, serif'}}/>
+          <div className="flex space-x-7 -ml-40">
             {Object.entries(socialLinks).map(([platform, url]) => (
               <a key={platform} href={url} target="_blank" rel="noopener noreferrer">
                 <Image
                   src={`/images/${platform}logo.svg`}
-                  width={30}
-                  height={30}
+                  width={50}
+                  height={40}
                   alt={`${platform} Logo`}
                 />
               </a>
