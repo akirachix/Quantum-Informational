@@ -9,7 +9,7 @@ const Product = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8" id="product">
+    <div className="container mx-auto mt-20 px-4 py-8" id="product">
       <h1 className='text-center font-bold text-4xl md:text-5xl mb-2' style={{ fontFamily: 'Amiri, serif' }}>Product</h1>
       <h2 className='text-center md:text-4xl font-bold text-2xl mb-8 ' style={{ fontFamily: 'Amiri, serif' }}>RutubaFarm Gadget</h2>
       
