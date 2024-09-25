@@ -14,7 +14,7 @@ export default function Navbar() {
             <div className="flex items-center">
               <div>
                 <Image
-                  src="/images/Rutubalogo.png"
+                  src="/images/logo.png"
                   alt="Logo"
                   width={80}
                   height={20}
