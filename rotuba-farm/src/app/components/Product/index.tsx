@@ -10,8 +10,8 @@ const Product = () => {
 
   return (
     <div className="container mx-auto mt-20 px-4 py-8" id="product">
-      <h1 className='text-center font-bold text-4xl md:text-5xl mb-2' style={{ fontFamily: 'Amiri, serif' }}>Product</h1>
-      <h2 className='text-center md:text-4xl font-bold text-2xl mb-8 ' style={{ fontFamily: 'Amiri, serif' }}>RutubaFarm Gadget</h2>
+      <h1 className='text-center font-bold text-4xl md:text-5xl mb-8' style={{ fontFamily: 'Amiri, serif' }}>Product</h1>
+      <h2 className='text-center md:text-4xl font-bold text-2xl mb-12 ' style={{ fontFamily: 'Amiri, serif' }}>RutubaFarm Gadget</h2>
       
       <div className='flex flex-col lg:flex-row justify-between items-start'>
         <div className='w-full lg:w-1/2 space-y-6'>
