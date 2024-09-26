@@ -16,7 +16,7 @@ export default function Navbar() {
                 <Image
                   src="/images/logo.png"
                   alt="Logo"
-                  width={80}
+                  width={55}
                   height={20}
                   className="p-2"
                   style={{ objectFit: "contain" }} // Use CSS style for object fit
