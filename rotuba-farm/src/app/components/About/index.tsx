@@ -36,7 +36,7 @@ const sections = [
 export default function About() {
   return (
     <main id="about" className="mt-16 font-nunito mx-auto px-6 sm:px-4 md:px-16 lg:px-24 xl:px-16">
-      <h1 className="sm:mb-16 mb-12 text-4xl font-bold text-center pt-8 sm:text-5xl md:text-6xl lg:text-5xl xl:text-5xl lg:pt-12" style={{ fontFamily: 'Amiri, serif' }}>
+      <h1 className="sm:mb-16 mb-16 text-4xl font-bold text-center pt-8 sm:text-5xl md:text-6xl lg:text-5xl xl:text-5xl lg:pt-12" style={{ fontFamily: 'Amiri, serif' }}>
         About Us
       </h1>
       <div className="block xl:flex lg:grid-cols-2 sm:block md:block lg:grid ipad:flex-col sm:flex-row gap-8 ipad:gap-8 sm:gap-12 lg:gap-16">
